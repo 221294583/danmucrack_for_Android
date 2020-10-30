@@ -12,6 +12,9 @@ bilibili弹幕查询器安卓版
 ![img](https://github.com/221294583/danmucrack_for_Android/tree/main/gif/Untitled.gif)
 
 
+gif无法查看直接点击蓝链
+
+
 
 #缺陷
 目前番剧查询支持多p,但是链接仅支持"/ss"不支持"/ep";
