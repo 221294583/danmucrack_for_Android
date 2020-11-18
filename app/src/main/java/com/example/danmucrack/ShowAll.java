@@ -133,6 +133,7 @@ public class ShowAll extends AppCompatActivity {
                         u.append(".xml");
                         url_to_comment=u.toString();
                         System.out.println("!!!!!!!!!!!"+url_to_comment);
+                        break;
                     case "bangumi":
                         System.out.println("THIS IS A BANGUMI");
                         int initial=0;
@@ -157,6 +158,7 @@ public class ShowAll extends AppCompatActivity {
                         url_to_comment=sb.toString();
                         System.out.println(episode);
                         System.out.println(url_to_comment);
+                        break;
                 }
                 /*String beginning="cid";
                 String ending="dimension";
