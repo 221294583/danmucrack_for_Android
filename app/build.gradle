@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+    namespace 'com.example.dmc'
+    compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.danmucrack"
-        minSdkVersion 16
-        targetSdkVersion 30
+        applicationId "com.example.dmc"
+        minSdk 24
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -30,17 +30,12 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
-    implementation files('C:\\Program Files\\jex\\ext\\jsoup-1.13.1.jar')
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-    implementation 'de.hdodenhof:circleimageview:3.1.0'
-
-    implementation 'com.github.bumptech.glide:glide:4.11.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
-
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation files('libs\\jsoup-1.15.3.jar')
+    implementation 'com.arthenica:ffmpeg-kit-full:5.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 }
