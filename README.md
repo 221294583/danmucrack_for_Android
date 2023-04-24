@@ -1,0 +1,2 @@
+# danmucrack_for_Android
+bilibili弹幕查询器安卓版
